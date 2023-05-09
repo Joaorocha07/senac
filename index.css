@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+}
