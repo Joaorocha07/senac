@@ -102,6 +102,11 @@
 }
 
 .calendario {
+    height: 50vh;
+    width: 150vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
 }
