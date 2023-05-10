@@ -9,27 +9,29 @@
     <title>Tela de login</title>
 </head>
 <body>
-    <div class="area-login">
-        <h1>Login</h1>
-        <div class="textfiled">
-            <label for="senha">Email</label>
-            <input 
-                type="email"
-                placeholder="Email"
-                name="email"
-            />
+    <div class="container">
+        <div class="area-login">
+            <h1>Login</h1>
+            <div class="textfiled">
+                <label for="senha">Email</label>
+                <input 
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                />
+            </div>
+            <div class="textfiled">
+                <label for="senha">Senha</label>
+                <input 
+                    type="password"
+                    placeholder="Senha"
+                    name="senha"
+                />
+            </div>
+            <div class="mensagem"></div>
+            <button class="btn-logar" type="submit">Logar</button>
+            <a class="link-cadastro" href="./../PageCadastro/index.html">cadastre-se</a>
         </div>
-        <div class="textfiled">
-            <label for="senha">Senha</label>
-            <input 
-                type="password"
-                placeholder="Senha"
-                name="senha"
-            />
-        </div>
-        <div class="mensagem"></div>
-        <button class="btn-logar" type="submit">Logar</button>
-        <a class="link-cadastro" href="./../PageCadastro/index.html">cadastre-se</a>
     </div>
     <script src="./script.js"></script>
 </body>
