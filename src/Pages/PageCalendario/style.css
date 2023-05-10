@@ -5,10 +5,10 @@
     padding: 40px;
     height: 90vh;
     box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
-    background-image: url("./../../assets/img/fundo-home.jpg");
+    background-image: url("./../../assets/img/fundo-calendario.jpg");
     background-size: cover;
     background-position: center;
-    filter: blur(0.5px);
+    filter: blur(0.1px);
 }
 
 .menu-lateral {
@@ -71,13 +71,12 @@
 }
 
 .btn-sair button:hover {
-    background-color: #2a2d30de;
+    background-color: #2a2d30;
 }
 
 .conteudo {
     height: 50vh;
     width: 150vh;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,16 +87,45 @@
 }
 
 .conteudo h1 {
-    color: #ffffff;
+    color: #000000;
     font-size: 48px;
     margin-bottom: 20px;
     text-align: center;
 }
 
 .conteudo p {
-    color: #ffffff;
+    color: #000000;
     font-size: 24px;
     line-height: 1.5;
     text-align: justify;
     max-width: 800px;
+}
+
+.calendario {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.calendario th,
+.calendario td {
+    width: 14.28%; 
+    padding: 10px;
+    text-align: center;
+}
+
+.calendario th {
+    background-color: #ddd;
+}
+
+.calendario td {
+    background-color: #fff;
+}
+
+.calendario td:hover {
+    background-color: #8dc8ff;
+}
+
+.calendario .hoje {
+    background-color: #00b7ff;
+    color: #fff;
 }

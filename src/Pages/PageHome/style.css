@@ -75,9 +75,8 @@
 }
 
 .conteudo {
-    height: 50vh;
+    height: 30vh;
     width: 150vh;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
