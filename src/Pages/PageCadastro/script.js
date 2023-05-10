@@ -1,5 +1,3 @@
-const btnLogar = document.querySelector('.btn-logar');
-
 const usuarios = [
     { email: "usuario1@exemplo.com", senha: "senha1" },
     { email: "usuario2@exemplo.com", senha: "senha2" },
@@ -7,7 +5,9 @@ const usuarios = [
     { email: "rocha.joao.victor.50@gmail.com", senha: "joao1234" },
 ];
 
-btnLogar.addEventListener('click', () => {
+const btnCadastrar = document.querySelector('.btn-cadastrar');
+
+btnCadastrar.addEventListener('click', () => {
     const email = document.querySelector('input[name="email"]').value;
     const senha = document.querySelector('input[name="senha"]').value;
     const senhaConfirm = document.querySelector('input[name="senhaConfirm"]').value;
